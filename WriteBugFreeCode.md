@@ -26,8 +26,19 @@ Most of the mistakes are made when I wrote Python code but I believe many of the
 
 ### Know your variable type
 Keep in mind of the type of your variable.
-When you try to modify the string by creating a new list, notice that it is a list now, not a string.
+When you try to modify the string by creating a new list,
+notice that it is a list now, not a string.
 
+### Keep the small constraints even if it may not be necessary
+In the design phase,
+try to keep the local small constraints true even if you think you have a better idea to prevent the bad things happen.
+This is because it requires experience and great insight to know what a changes will affect the whole system.
+So if you cannot do this,
+keep the constraints since it costs little overhead.
+It is also an extended idea from the defensive programming.
+
+The local small constrants can be:
+a list or string should not be empty.
 
 
 [Back to homepage](index.md)
