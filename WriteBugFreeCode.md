@@ -52,6 +52,11 @@ Keep in mind of the type of your variable.
 notice that it is a list now, not a string.
 2. You can unzip tuple but not list.
 
+### Define the meaing of your variable
+Give a specific definition of your variables.
+Then you will have an assertion (or invariant).
+More importantly, you should justify whenever your **variable changes or doesn't change**.
+
 ### Keep the small constraints even if it may not be necessary
 In the design phase,
 try to keep the local small constraints true even if you think you have a better idea to prevent the bad things happen.
@@ -66,7 +71,7 @@ a list or string should not be empty.
 ### Index out of range/Key doesn't exist
 The pre-condition of indexing is always that the key exist (Except for the defaulDict).
 Make sure you think about it when coding and try you best to consider it in your natural language description.
-Especially, think about the special index like 0, len(list) - 1.
+Especially, think about the special index like ``0``, ``len(list) - 1``.
 
 ### Careful with break/continue
 In the natural language description you may need to interrupt the current loop under some conditions.
@@ -75,7 +80,6 @@ make sure how the program behaive.
 Is is a brea or a continue?
 
 
-add link
 
 <div align="right">
     <a class="btn" href="index.md">Back to home</a>
