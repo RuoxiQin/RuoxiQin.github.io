@@ -1,4 +1,4 @@
-<p><a href="index.md">Back to home</a></p>
+<p><a class="btn" href="index.md">Back to home</a></p>
 
 # How to write bug-free code
 
