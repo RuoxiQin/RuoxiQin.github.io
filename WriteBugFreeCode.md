@@ -59,8 +59,15 @@ It is also an extended idea from the defensive programming.
 The local small constrants can be:
 a list or string should not be empty.
 
-### Index out of range / Key doesn't exist
+### Index out of range/Key doesn't exist
 The pre-condition of indexing is always that the key exist (Except for the defaulDict).
 Make sure you think about it when coding and try you best to consider it in your natural language description.
+Especially, think about the special index like 0, len(list) - 1.
+
+### Careful with break/continue
+In the natural language description you may need to interrupt the current loop under some conditions.
+When you code this,
+make sure how the program behaive.
+Is is a brea or a continue?
 
 [Back to homepage](index.md)
