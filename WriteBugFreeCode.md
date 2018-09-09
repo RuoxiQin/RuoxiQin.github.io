@@ -75,6 +75,8 @@ make sure how the program behaive.
 Is is a brea or a continue?
 
 
+add link
+
 <div align="right">
-    <a href="index.md">Back to home</a>
+    <a class="btn" href="index.md">Back to home</a>
 </div>
