@@ -36,12 +36,17 @@ Follow your writting and implement sentence by sentence.
 Don't fly while coding, keep on the track.
 Think whether your code express exactly the same as your natural language.
 
+Another very important thing is to give good variable names and function names.
+You can have i, j, k, as long as you make sure they are always temp looping variable and will be useless right after the loop.
+Otherwise you should give them a good (long) name.
+
 ## Coding Checklist
 
 ### Know your variable type
 Keep in mind of the type of your variable.
-When you try to modify the string by creating a new list,
+1. When you try to modify the string by creating a new list,
 notice that it is a list now, not a string.
+2. You can unzip tuple but not list.
 
 ### Keep the small constraints even if it may not be necessary
 In the design phase,
@@ -54,5 +59,8 @@ It is also an extended idea from the defensive programming.
 The local small constrants can be:
 a list or string should not be empty.
 
+### Index out of range / Key doesn't exist
+The pre-condition of indexing is always that the key exist (Except for the defaulDict).
+Make sure you think about it when coding and try you best to consider it in your natural language description.
 
 [Back to homepage](index.md)
