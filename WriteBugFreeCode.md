@@ -74,4 +74,7 @@ When you code this,
 make sure how the program behaive.
 Is is a brea or a continue?
 
-[Back to homepage](index.md)
+
+<div align="right">
+    [Back to homepage](index.md)
+</div>
