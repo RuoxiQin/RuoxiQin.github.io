@@ -22,6 +22,20 @@ Since rigorous logical thinking requires training and accumulation.
 I list down the follwing checklist based on the mistakes I have made.
 Most of the mistakes are made when I wrote Python code but I believe many of them apply for other programming language.
 
+## Best Practice
+
+Here are the steps to write code (after you have designed the algorithm and selected the data structure):
+
+1. Write down the steps in natural language.
+The reason of using natural language is that you need to think about the logic behind them.
+1. Consider the logic behind them, the pre-condition and post condition.
+For the loop, write down the loop invariant.
+Then check the initialization and termination conditions.
+1. Code your logic.
+Follow your writting and implement sentence by sentence.
+Don't fly while coding, keep on the track.
+Think whether your code express exactly the same as your natural language.
+
 ## Coding Checklist
 
 ### Know your variable type
