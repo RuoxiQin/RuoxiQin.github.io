@@ -1,5 +1,5 @@
 <div align="right">
-    <a class="btn" href="index.md">Back to home</a></p>
+    <a class="btn" href="index.md">Back to home</a>
 </div>
 
 # How to write bug-free code
@@ -76,5 +76,5 @@ Is is a brea or a continue?
 
 
 <div align="right">
-    [Back to homepage](index.md)
+    <a href="index.md">Back to home</a>
 </div>
