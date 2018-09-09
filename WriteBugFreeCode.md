@@ -28,6 +28,9 @@ Most of the mistakes are made when I wrote Python code but I believe many of the
 Keep in mind of the type of your variable.
 When you try to modify the string by creating a new list, notice that it is a list now, not a string.
 
+### Second
+kk
+
 
 add something
 add [Back to homepage](index.md)
