@@ -1,5 +1,7 @@
 # How to write bug-free code
 
+<p>This site is open source. <a href="{% github_edit_link %}">Improve this page</a></p>
+
 This is my best practice of writing bug-free code.
 I'm not an expert right now so these practice may not be the best.
 But I will try to think and evolve the methods while practicing and try keep this blog up-to-date.
