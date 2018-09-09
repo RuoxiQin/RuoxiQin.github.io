@@ -1,4 +1,6 @@
-<p><a class="btn" href="index.md">Back to home</a></p>
+<div align="right">
+    <a class="btn" href="index.md">Back to home</a></p>
+</div>
 
 # How to write bug-free code
 
