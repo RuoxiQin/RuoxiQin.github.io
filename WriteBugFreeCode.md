@@ -1,5 +1,5 @@
 <div align="right">
-    <a class="btn" href="index.md">Back to home</a>
+    <a class="btn" href="{{ site.base-url }}">Back to home</a>
 </div>
 
 # How to write bug-free code
@@ -71,7 +71,16 @@ a list or string should not be empty.
 ### Index out of range/Key doesn't exist
 The pre-condition of indexing is always that the key exist (Except for the defaulDict).
 Make sure you think about it when coding and try you best to consider it in your natural language description.
-Especially, think about the special index like ``0``, ``len(list) - 1``.
+Especially, think in 2 ways:
+1. From a range view:
+will the index go over every index you want?
+Check the beginning and the end index.
+2. From the index variable itself's view:
+is the index value always valid?
+For example,
+if your index is in form ``index - 1``,
+then ``index`` might be legal,
+but what about ``-1``?
 
 ### Careful with break/continue
 In the natural language description you may need to interrupt the current loop under some conditions.
@@ -82,5 +91,5 @@ Is is a brea or a continue?
 
 
 <div align="right">
-    <a class="btn" href="index.md">Back to home</a>
+    <a class="btn" href="{{ site.base-url }}">Back to home</a>
 </div>
