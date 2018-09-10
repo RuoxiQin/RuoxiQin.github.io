@@ -1,5 +1,5 @@
 <div align="right">
-    <a class="btn" href="{{ site.base-url }}">Back to home</a>
+    <a class="btn" href="{{ site.baseurl }}">Back to home</a>
 </div>
 
 # How to write bug-free code
@@ -88,8 +88,13 @@ When you code this,
 make sure how the program behaive.
 Is is a brea or a continue?
 
+However, you are not encouraged to use the break and continue.
+The reason is exactly the existence of this checkpoint -- if you use it,
+it can break any conditions you have designed before and thus you must have this checkpoint in mind and do all the checks again.
+
+
 
 
 <div align="right">
-    <a class="btn" href="{{ site.base-url }}">Back to home</a>
+    <a class="btn" href="{{ site.baseurl }}">Back to home</a>
 </div>
