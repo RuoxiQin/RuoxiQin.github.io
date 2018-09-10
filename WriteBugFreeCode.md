@@ -1,5 +1,5 @@
 <div align="right">
-    <a class="btn" href="{{ site.baseurl }}">Back to home</a>
+    <a class="btn" href="https://ruoxiqin.github.io">Back to home</a>
 </div>
 
 # How to write bug-free code
@@ -96,5 +96,5 @@ it can break any conditions you have designed before and thus you must have this
 
 
 <div align="right">
-    <a class="btn" href="{{ site.baseurl }}">Back to home</a>
+    <a class="btn" href="https://ruoxiqin.github.io">Back to home</a>
 </div>
