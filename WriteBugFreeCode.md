@@ -92,7 +92,11 @@ However, you are not encouraged to use the break and continue.
 The reason is exactly the existence of this checkpoint -- if you use it,
 it can break any conditions you have designed before and thus you must have this checkpoint in mind and do all the checks again.
 
-
+### Container manipulation in loops
+When you manipulate the elements of a container while looping it,
+be careful about adding or deleting elements.
+Some containers like ``dict`` doesn't allow these changes during the loop.
+But more importantly, make sure your manipulation doesn't break all your invariants and assumptions.
 
 
 <div align="right">
