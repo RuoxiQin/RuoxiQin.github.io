@@ -81,6 +81,10 @@ For example,
 if your index is in form ``index - 1``,
 then ``index`` might be legal,
 but what about ``-1``?
+3. When you do some process involving your neighbours.
+Are you sure your neighbours are also in the list/dict?
+Sepcifically, if you do the process with several neighbours,
+Are all of them in the list/dict?
 
 ### Careful with break/continue
 In the natural language description you may need to interrupt the current loop under some conditions.
