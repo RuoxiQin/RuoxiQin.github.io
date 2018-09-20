@@ -15,7 +15,7 @@ The general idea behind writing bug-free code is not about
 then try to run some tests in your head to find the rest of bugs."
 
 It should be
-"Have a clear understanding of what you are writing,
+"have a clear understanding of what you are writing,
 think about the logic in a formal way and write bug-free code from the scratch."
 
 Having a clear understanding requries you to know your favoriate programming language.
@@ -32,7 +32,7 @@ Here are the steps to write code (after you have designed the algorithm and sele
 
 1. Write down the steps in natural language.
 The reason of using natural language is that you need to think about the logic behind them.
-1. Consider the logic behind them, the pre-condition and post condition.
+1. Consider the logic behind them, the pre-condition and post-condition.
 For the loop, write down the loop invariant.
 Then check the initialization and termination conditions.
 1. Code your logic.
@@ -41,12 +41,12 @@ Don't fly while coding, keep on the track.
 Think whether your code express exactly the same as your natural language.
 
 Another very important thing is to give good variable names and function names.
-You can have i, j, k, as long as you make sure they are always temp looping variable and will be useless right after the loop.
+You can have ``i``, ``j``, ``k``, as long as you make sure they are always temp looping variable and will be useless right after the loop.
 Otherwise you should give them a good (long) name.
 
 ## Coding Checklist
 
-### Know your variable type
+### Know your variables' type
 Keep in mind of the type of your variable.
 1. When you try to modify the string by creating a new list,
 notice that it is a list now, not a string.
@@ -65,7 +65,7 @@ So if you cannot do this,
 keep the constraints since it costs little overhead.
 It is also an extended idea from the defensive programming.
 
-The local small constrants can be:
+The local small constraints can be:
 a list or string should not be empty.
 
 ### Index out of range/Key doesn't exist
@@ -80,21 +80,21 @@ is the index value always valid?
 For example,
 if your index is in form ``index - 1``,
 then ``index`` might be legal,
-but what about ``-1``?
+but what about ``index-1``?
 3. When you do some process involving your neighbours.
 Are you sure your neighbours are also in the list/dict?
 Sepcifically, if you do the process with several neighbours,
 Are all of them in the list/dict?
 
-### Careful with break/continue
+### Be careful with break/continue
 In the natural language description you may need to interrupt the current loop under some conditions.
 When you code this,
-make sure how the program behaive.
-Is is a brea or a continue?
+make sure how the program behave.
+Should it be a ``break`` or a ``continue``?
 
-However, you are not encouraged to use the break and continue.
+However, you are not encouraged to use the ``break`` and ``continue``.
 The reason is exactly the existence of this checkpoint -- if you use it,
-it can break any conditions you have designed before and thus you must have this checkpoint in mind and do all the checks again.
+it can break any conditions and assumptions you have designed before and thus you must have this checkpoint in mind and do all the checks again.
 
 ### Container manipulation in loops
 When you manipulate the elements of a container while looping it,
