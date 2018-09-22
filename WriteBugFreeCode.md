@@ -8,6 +8,18 @@ This is my best practice of writing bug-free code.
 I'm not an expert right now so these practice may not be the best.
 But I will try to think and evolve the methods while practicing and try keep this blog up-to-date.
 
+# Rule #0
+Focus, focus and focus.
+
+Even though I try to find a systematically best-practice to write bug-free code.
+Focus is still the most important ability to achieve this.
+You must have a clear understanding of your algorithm, and then your code.
+So clear that you can play with every variable in it.
+Then you can try to follow this best practice and keep the checklist below in the back of your head to avoid mistake in the training phase.
+
+The final phase of this training: **Every check point and rule mentioned below should be a native thinking during the coding.**
+
+
 ## General Idea
 
 The general idea behind writing bug-free code is not about
