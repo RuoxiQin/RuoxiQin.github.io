@@ -57,6 +57,19 @@ Give a specific definition of your variables.
 Then you will have an assertion (or invariant).
 More importantly, you should justify whenever your **variable changes or doesn't change**.
 
+## Loop
+You should have a clear understanding of your loop.
+What is it for?
+What are the meaning of the variables you defined in the loop?
+Then there are 3 important things you need to keep in mind while designing or **editing** a loop:
+1. Initialization: are all the variables being initialized as the meaning you defined at the beginning of the loop?
+1. Loop range: do you loop over the full range you want to loop over?
+Especially check the beginning and the end.
+2. Loop invariants:
+are all variables maintain their defined meanings?
+Do they change when they should, and when they change do they really need to?
+You can also have some sophisticated loop invariants (assumptions) you want to hold during the loop if your loop is not trivial.
+
 ### Keep the small constraints even if it may not be necessary
 In the design phase,
 try to keep the local small constraints true even if you think you have a better idea to prevent the bad things happen.
